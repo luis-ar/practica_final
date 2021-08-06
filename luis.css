@@ -1,0 +1,88 @@
+* {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0;
+}
+body{
+	background-color: black;
+	height: 200px;
+}
+.contenedor{
+	width: 50px;
+}
+.encabezado{
+	width: 100vw;
+	height: 15vh;
+	background-color: #F50DF1;
+	position: absolute;
+	z-index: 90;
+	top: -10px;
+}
+.menu{
+	width: 28vw;
+	height: 100vh;
+	background-color: #938E93;
+	position: absolute;
+	z-index: 21;
+	top: -2px;
+	left: -400px;
+	transition: all 2s;
+
+}
+.iconos{
+	padding: 20px;
+	margin: 30px auto;
+	border: solid 5px #0C060C;
+	width: 230px;
+	position: relative;
+	top: 130px;
+	display: block;
+	border-radius: 30px;
+}
+.fas{
+	padding-right: 20px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	text-shadow: 0 0 10px yellow,0 0 10px yellow,0 0 10px yellow,0 0 10px yellow,0 0 10px yellow,0 0 10px yellow;
+}
+.boton{
+	position: absolute;
+	z-index: 100;
+	margin: 25px 38px;
+	width: 50px;
+	height: 50px;
+}
+.contenedor:hover > .menu{
+	left: 0px;
+}
+ img{
+	width: 72vw;
+	position: absolute;
+	right: 0;
+	height: 85vh;
+	bottom: 5px;
+}
+h1{
+	position: absolute;
+	font-size: 65px;
+	margin: auto;
+	letter-spacing: 15px;
+	font-weight: 10px;
+	top: 10px;
+	left: 300px;
+	text-shadow: 0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white,0 0 10px white;
+}
+.numero{
+	border: solid 5px black;
+	display: inline-block;
+	position: absolute;
+	font-size: 25px;
+	right: 10px;
+	top: 23px;
+	width: 250px;
+	text-align: center;
+	border-radius: 20px;
+}
